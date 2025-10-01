@@ -1,0 +1,52 @@
+{
+  "vms": [
+    {
+      "stationId": "vms_001",
+      "name": "Taipei Main Station",
+      "location": {
+        "lat": 25.0478,
+        "lng": 121.517
+      },
+      "availableBatteries": 12,
+      "totalBatteries": 20
+    },
+    {
+      "stationId": "vms_002",
+      "name": "Xinyi District Station",
+      "location": {
+        "lat": 25.0335,
+        "lng": 121.5651
+      },
+      "availableBatteries": 5,
+      "totalBatteries": 10
+    }
+  ],
+  "scooters": [
+    {
+      "scooterId": "scooter_001",
+      "model": "Pergo 2025",
+      "batteryLevel": 85,
+      "lastLocation": {
+        "lat": 25.033,
+        "lng": 121.5654
+      }
+    },
+    {
+      "scooterId": "scooter_002",
+      "model": "Pergo 2024",
+      "batteryLevel": 40,
+      "lastLocation": {
+        "lat": 25.0375,
+        "lng": 121.5636
+      }
+    }
+  ],
+  "login": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.abc123",
+    "user": {
+      "id": "12345",
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    }
+  }
+}
